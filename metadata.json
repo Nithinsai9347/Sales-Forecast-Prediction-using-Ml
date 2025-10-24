@@ -1,0 +1,12 @@
+{
+  "lag": 5,
+  "feature_names": [
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_4",
+    "lag_5"
+  ],
+  "model_file": "sales_xgb.joblib",
+  "notes": "Model expects features in order [lag_1, lag_2, ..., lag_N] where lag_1 is Sales shifted by 1 (most recent previous value)."
+}
